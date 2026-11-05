@@ -4,6 +4,18 @@ Full-stack TypeScript developer building web products with React, Node and Cloud
 
 I own features end to end: data model, API, UI, deploy. Most of my recent work is production software running on Cloudflare's edge - D1 databases, R2 storage, cron jobs and payment callbacks - with the same tests and migration discipline I would use on a team.
 
+## Experience
+
+**Full-Stack Engineer - OpenSlot** · Nairobi · Feb 2024 - Sep 2026
+
+Salon and spa operations platform - scheduling, point of sale, Stripe payments, messaging and a consumer marketplace - live at [openslot.io](https://openslot.io/) with an Android app on [Google Play](https://play.google.com/store/apps/details?id=com.openslot.businessapp).
+
+- Owned the real-time messaging layer: WebSocket Durable Objects with Momento pub/sub, a unified inbox shared by staff and clients, attachments served from R2.
+- Contributed to a Hono and TypeScript API on Cloudflare Workers: 58 domain modules, 1,222 routes over Postgres with schema-per-tenant row-level security and 146 migrations.
+- Contributed to Stripe Connect onboarding, Terminal tap-to-pay, webhook reconciliation, refunds, disputes and payout eligibility.
+- Contributed to omnichannel notifications: Twilio SMS and virtual numbers, WhatsApp channels, queued transactional email.
+- Authored the team's AI context-engineering standard: repo-wide guides and agent instructions adopted across the services.
+
 ## Selected work
 
 - **[FixTrack](https://fixtrack.waigurumichael252.workers.dev)** - repair-shop operations for Kenyan SMEs: quotations, customer approval links, balance-guarded payments, M-Pesa STK Push with callback reconciliation, unmatched-payment review, email/SMS/WhatsApp quote notifications, invitations and email verification. React + Vite frontend, Hono Worker API, D1, R2, 15 Miniflare regression tests.
@@ -13,7 +25,7 @@ I own features end to end: data model, API, UI, deploy. Most of my recent work i
 
 ## Stack
 
-TypeScript - React - React Native / Expo - Node - Hono - Express - SQL - Cloudflare Workers - D1 - R2 - PostgreSQL - Vitest - Node test runner - Playwright
+TypeScript - React - React Native / Expo - Next.js - Node - Hono - Express - SQL - Postgres - Cloudflare Workers - D1 - R2 - Queues - Durable Objects - Stripe - Cognito - Twilio - Momento - Vitest - Playwright
 
 ## Currently
 
