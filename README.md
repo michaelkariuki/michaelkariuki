@@ -8,9 +8,11 @@ I own features end to end: data model, API, UI, deploy. Most of my recent work i
 
 **Full-Stack Engineer - OpenSlot** · Nairobi · Feb 2024 - Sep 2026
 
-Salon and spa operations platform - scheduling, point of sale, Stripe payments, messaging and a consumer marketplace - live at [openslot.io](https://openslot.io/) with an Android app on [Google Play](https://play.google.com/store/apps/details?id=com.openslot.businessapp).
+Salon and spa operations platform - scheduling, point of sale, Stripe payments, messaging and a consumer marketplace - live at [openslot.io](https://openslot.io/) with an Android app on [Google Play](https://play.google.com/store/apps/details?id=com.openslot.businessapp) and docs at [support.openslot.io](https://support.openslot.io/).
 
 - Owned the real-time messaging layer: WebSocket Durable Objects with Momento pub/sub, a unified inbox shared by staff and clients, attachments served from R2.
+- Wrote and maintained the customer documentation site at [support.openslot.io](https://support.openslot.io/) - product guides, walkthroughs and screenshots for every module.
+- Introduced Playwright end-to-end testing for the partner dashboard and kept it green through redesigns: 122 specs and 586 tests across 23 feature areas.
 - Contributed to a Hono and TypeScript API on Cloudflare Workers: 58 domain modules, 1,222 routes over Postgres with schema-per-tenant row-level security and 146 migrations.
 - Contributed to Stripe Connect onboarding, Terminal tap-to-pay, webhook reconciliation, refunds, disputes and payout eligibility.
 - Contributed to omnichannel notifications: Twilio SMS and virtual numbers, WhatsApp channels, queued transactional email.
